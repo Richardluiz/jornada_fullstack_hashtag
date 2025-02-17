@@ -1,5 +1,5 @@
 import React from "react";
-import ItemList from "@/components/ItemList.jsx";
+import ItemList from './ItemList.jsx';  // Não deve ter um caminho adicional como "@/components/"
 import { artistArray } from "../Assets/database/artists";
 import { songsArray } from "../Assets/database/songs";
 
