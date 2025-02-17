@@ -9,7 +9,7 @@ export default defineConfig({
   },
   resolve: {
     alias: {
-      '@': path.resolve('src'),  // Modifiquei para não depender do __dirname
+      '@components': path.resolve(__dirname,'src/components') // Modifiquei para não depender do __dirname
     },
     extensions: ['.js', '.jsx', '.ts', '.tsx'],  // Garantindo que o Vite reconheça as extensões
   },
