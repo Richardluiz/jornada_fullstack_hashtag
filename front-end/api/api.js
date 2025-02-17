@@ -2,8 +2,8 @@
 import axios from "axios";
 import "dotenv/config";
 
-const { NODE_ENV } = process.env;
-const URL = NODE_ENV === "development" ? "http://localhost:3001/api" : "/api";
+//const { NODE_ENV } = process.env;
+const URL = "https://fullstack-replica-spotify.onrender.com/api" ;
 
 
 const responseArtists = await axios.get(`${URL}/artists`);
