@@ -4,7 +4,7 @@ import { faCirclePlay } from "@fortawesome/free-solid-svg-icons";
 import { Link, useParams } from "react-router-dom";
 import SongList from "../components/SongList";
 import { artistArray } from "../Assets/database/artists";
-import { songsArray } from "../assets/database/songs";
+import { songsArray } from "../Assets/database/songs";
 
 const Artist = () => {
   const { id } = useParams();
